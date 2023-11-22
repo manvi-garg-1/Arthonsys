@@ -1,10 +1,10 @@
-#1. Variables:
-   # Define five different variables showcasing various data types (integers, strings, lists, tuples, dictionaries).
-   #Print each variable along with its data type.
+'''1. Variables:
+   Define five different variables showcasing various data types (integers, strings, lists, tuples, dictionaries).
+   Print each variable along with its data type.'''
 
-#2. Data Types:
-   #Define and explain different data types available in Python (int, float, str, list, tuple, dict).
-   #Provide an example for each data type showcasing its usage.
+'''2. Data Types:
+   Define and explain different data types available in Python (int, float, str, list, tuple, dict).
+   Provide an example for each data type showcasing its usage.'''
 
 #interger example
 a=100
