@@ -1,20 +1,17 @@
-#7.Perform basic arithmetic operations (addition, subtraction, multiplication, division) using user input
+#7. Perform basic arithmetic operations (addition, subtraction, multiplication, division) using user input
 
-x=int(input('enter num1'))
-y=int(input('enter num2'))
-c=input('enter choice 1=add 2=sub 3=multi 4=div')
-
-if c=='add':
-    d=x+y
-    print('add=',d)
-if c=='sub':
-    d=x-y
-    print('sub=',d)
-if c=='multi':
-    d=x*y
-    print('multi=',d)
-if c=='div':
-    d=x/y
-    print('div=',d)
-else:
-    print('wrong choice')
+num1=int(input('first no is:'))
+num2=int(input('second no is:'))
+choice=input('Enter your choice:')
+if choice=='+':
+    result=num1+num2
+    print('Addition of two numbers is',result)
+elif choice=='-':
+    result=num1-num2
+    print('Subtraction of two numbers is',result)
+elif choice=='*':
+    result=num1*num2
+    print('Multiplication of two numbers is',result)
+elif choice=='/':
+    result=num1/num2
+    print('Division of two numbers is',result)
